@@ -1,0 +1,5 @@
+# Extra protection for /admin path
+AuthType Basic
+AuthName "Restricted Admin"
+AuthUserFile /home/username/.htpasswds/public_html/admin/passwd
+Require valid-user
